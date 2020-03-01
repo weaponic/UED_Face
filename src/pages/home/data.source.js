@@ -158,13 +158,13 @@ export const Banner00DataSource = {
     className: "banner0-content k746x9ol57b-editor_css",
     children: (
       <>
-        <p>汇集优质的资源打造高效开发环境</p>
+        <p>汇集优质的资源打造高效工作环境</p>
       </>
     )
   },
   button: {
     className: "banner0-button k746xs9ysa7-editor_css",
-    children: "Learn More"
+    children: "更多"
   }
 };
 export const Content30DataSource = {
@@ -223,7 +223,7 @@ export const Content30DataSource = {
             children: (
               <>
                 <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                  优秀的设计，优美的视觉体验。建设中。。。
                 </p>
               </>
             )
@@ -254,7 +254,7 @@ export const Content30DataSource = {
             children: (
               <>
                 <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                  优秀的开发者，优秀的前端组件与模板。建设中。。。
                 </p>
               </>
             )
@@ -285,44 +285,14 @@ export const Content30DataSource = {
             children: (
               <>
                 <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                  优秀的开发者，经验共享。链接到confluence。建设中。。。
                 </p>
               </>
             )
           }
         }
       },
-      {
-        name: "block3",
-        className: "content3-block",
-        md: 8,
-        xs: 24,
-        children: {
-          icon: {
-            className: "content3-icon k72ynqcov26-editor_css",
-            children: icon04
-          },
-          textWrapper: { className: "content3-text k72ynzi0jo-editor_css" },
-          title: {
-            className: "content3-title",
-            children: (
-              <>
-                <p>数据分析资源</p>
-              </>
-            )
-          },
-          content: {
-            className: "content3-content",
-            children: (
-              <>
-                <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
-                </p>
-              </>
-            )
-          }
-        }
-      },
+      
       {
         name: "block4",
         className: "content3-block",
@@ -347,7 +317,7 @@ export const Content30DataSource = {
             children: (
               <>
                 <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                  大量的PPT实例下载。建设中。。。
                 </p>
               </>
             )
@@ -378,7 +348,38 @@ export const Content30DataSource = {
             children: (
               <>
                 <p>
-                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                  业务培训资料，链接到confluence。建设中。。。
+                </p>
+              </>
+            )
+          }
+        }
+      },
+      {
+        name: "block3",
+        className: "content3-block",
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: "content3-icon k72ynqcov26-editor_css",
+            children: icon04
+          },
+          textWrapper: { className: "content3-text k72ynzi0jo-editor_css" },
+          title: {
+            className: "content3-title",
+            children: (
+              <>
+                <p>虚位以待</p>
+              </>
+            )
+          },
+          content: {
+            className: "content3-content",
+            children: (
+              <>
+                <p>
+                  欢迎创建自己贡献的板块。
                 </p>
               </>
             )
@@ -410,7 +411,7 @@ export const Content10DataSource = {
     className: "content1-title k730urz8fa8-editor_css",
     children: (
       <>
-        <p>大神云集的“喔嘈”社区</p>
+        <p>大神云集的“烽火”社区</p>
       </>
     )
   },
@@ -419,10 +420,9 @@ export const Content10DataSource = {
     children: (
       <>
         <p>
-          “喔嘈”社区是公司对外网络问答社区，我们可以分享着彼此的知识、经验和见解，为员工以及客户源源不断地提供多种多样的信息。
+          建设中。。。
         </p>
         <p>
-          准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨论，同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨论，同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。
         </p>
       </>
     )
@@ -439,7 +439,7 @@ export const Teams20DataSource = {
         name: "title",
         children: (
           <>
-            <p>UED/界面团队成员</p>
+            <p>季度/年度优秀</p>
           </>
         ),
         className: "k72w80qb97a-editor_css"
