@@ -1,7 +1,43 @@
-import {BrowserRouter, } from 'react-router-dom'
+import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+import Index from "./Index";
+import Login from "./login/Login";
+import Signin from "./login/Signin";
+import "./index.less";
 
-export default function () {
-  return (
-    <div></div>
-  )
+class RouterPage extends Component {
+  state = {
+    isLogedIn: false
+  };
+  render() {
+    return (
+      <Router forceRefresh={true}>
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/signin">
+            <Signin />
+          </Route>
+          <Route
+            path="/"
+            render={location =>
+              this.state.isLogedIn ? (
+                <Index />
+              ) : (
+                <Redirect to="/login"></Redirect>
+              )
+            }
+          ></Route>
+        </Switch>
+      </Router>
+    );
+  }
 }
+
+export default RouterPage;

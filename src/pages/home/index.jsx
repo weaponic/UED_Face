@@ -3,20 +3,20 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav3 from './Nav3';
+// import Nav3 from './Nav3';
 import Banner0 from './Banner0';
 import Content3 from './Content3';
 import Content1 from './Content1';
 import Teams2 from './Teams2';
-import Footer0 from './Footer0';
+// import Footer0 from './Footer0';
 import Point from './Point';
 import {
-  Nav30DataSource,
+  // Nav30DataSource,
   Banner00DataSource,
   Content30DataSource,
   Content10DataSource,
   Teams20DataSource,
-  Footer00DataSource,
+  // Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -56,12 +56,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Nav3
+      //   id="Nav3_0"
+      //   key="Nav3_0"
+      //   dataSource={Nav30DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Banner0
         id="Banner0_0"
         key="Banner0_0"
@@ -86,12 +86,12 @@ export default class Home extends React.Component {
         dataSource={Teams20DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Footer0
-        id="Footer0_0"
-        key="Footer0_0"
-        dataSource={Footer00DataSource}
-        isMobile={this.state.isMobile}
-      />, // 导航和页尾不进入锚点区，如果需要，自行添加;
+      // <Footer0
+      //   id="Footer0_0"
+      //   key="Footer0_0"
+      //   dataSource={Footer00DataSource}
+      //   isMobile={this.state.isMobile}
+      // />, // 导航和页尾不进入锚点区，如果需要，自行添加;
       <Point
         key="list"
         data={[

@@ -1,13 +1,14 @@
 import React from "react";
 
-import logo from "./images/logo.png";
-import icon01 from "./images/icon01.png";
-import icon02 from "./images/icon02.png";
-import icon03 from "./images/icon03.png";
-import icon04 from "./images/icon04.png";
-import icon05 from "./images/icon05.png";
-import icon06 from "./images/icon06.png";
-import image01 from "./images/image1.jpg";
+import logo from "../../assets/images/logo.png";
+import icon01 from "../../assets/images/icon01.png";
+import icon02 from "../../assets/images/icon02.png";
+import icon03 from "../../assets/images/icon03.png";
+import icon04 from "../../assets/images/icon04.png";
+import icon05 from "../../assets/images/icon05.png";
+import icon06 from "../../assets/images/icon06.png";
+import image01 from "../../assets/images/image1.jpg";
+
 export const Nav30DataSource = {
   wrapper: { className: "header3 home-page-wrapper" },
   page: { className: "home-page k744l5ka1v-editor_css" },
