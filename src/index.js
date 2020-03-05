@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from './pages/Router';
+import Router from './pages/router';
 import * as serviceWorker from './serviceWorker';
 // import 'antd/dist/antd.css';
 
