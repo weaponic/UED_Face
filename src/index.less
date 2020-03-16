@@ -1,0 +1,130 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+.ued-header {
+  width: 100%;
+  height: 64px;
+  background-color: #fff;
+  z-index: 999;
+  .logo {
+    float: left;
+    width: 207px;
+    height: 36px;
+    margin: 14px 24px;
+    background: url("./assets/images/logo.png") no-repeat;
+  }
+  .menu-wrapper {
+    float: right;
+  }
+}
+
+.ued-footer {
+  text-align: center;
+  // background-color: cadetblue;
+}
+#resource {
+  .search-label {
+    width: 120px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .resource-header {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 32px;
+    margin-bottom: 24px;
+    p {
+      margin: 0;
+    }
+    .resource-logo {
+      width: 72px;
+      height: 72px;
+      background-image: url(./assets/images/logo-resource-all.png);
+      margin-right: 24px;
+    }
+
+    .resource-desc {
+      width: calc(100% - 172px);
+    }
+
+    .resource-stat {
+      width: 100px;
+      text-align: right;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.65);
+      p.resource-number {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+  }
+
+  .hot-download {
+    .hd-title {
+      font-weight: bold;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .hd-item {
+      display: inline-block;
+      line-height: 32px;
+      border-radius: 20px 0 0 20px;
+      padding: 0 8px 0 16px;
+      background-color: #fff;
+      margin-left: 16px;
+      &::before {
+        content: " ";
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.15);
+        margin: 0px 5px 2px -3px;
+        border-radius: 50%;
+      }
+
+      a {
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+  }
+
+  .resource-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 24px 0;
+    background-color: #fff;
+    justify-content: space-between;
+    justify-items: center;
+
+    .resource-item {
+      flex-basis: 32%;
+      margin-bottom: 16px;
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+    }
+  }
+}
