@@ -8,7 +8,6 @@ import {
 import Index from "./Index";
 import Login from "./login/Login";
 import Signin from "./login/Signin";
-import "./index.less";
 
 class RouterPage extends Component {
   state = {

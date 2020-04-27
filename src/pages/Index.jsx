@@ -12,10 +12,10 @@ const { Footer, Content } = Layout;
 class RouterPage extends Component {
   render() {
     return (
-      <Layout>
-        <UEDHeader />
-        <Content className="">
-          <Router>
+      <Router>
+        <Layout className="page-container">
+          <UEDHeader />
+          <Content>
             <Switch>
               <Route path="/resource">
                 <Resource />
@@ -30,15 +30,15 @@ class RouterPage extends Component {
                 <NotFound />
               </Route>
             </Switch>
-          </Router>
-        </Content>
-        <Footer className="ued-footer">
-          <span>
-            ©2020&nbsp;<a href="https://motion.ant.design">UED FiberHome</a>
-            &nbsp;All Rights Reserved
-          </span>
-        </Footer>
-      </Layout>
+          </Content>
+          <Footer className="ued-footer">
+            <span>
+              ©2020&nbsp;<a href="https://motion.ant.design">UED FiberHome</a>
+              &nbsp;All Rights Reserved
+            </span>
+          </Footer>
+        </Layout>
+      </Router>
     );
   }
 }
