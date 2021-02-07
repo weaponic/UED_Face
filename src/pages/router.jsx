@@ -11,7 +11,7 @@ import Signin from "./login/Signin";
 
 class RouterPage extends Component {
   state = {
-    isLogedIn: false
+    isLogedIn: true
   };
   render() {
     return (
